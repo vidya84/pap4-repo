@@ -4,7 +4,7 @@
   <groupId>com.rns.simpleweb</groupId>
   <artifactId>webapp</artifactId>
   <packaging>war</packaging>
-  <version>1.2</version>
+  <version>1.0-SNAPSHOT</version>
   <name>webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
     <dependencies>
@@ -24,5 +24,10 @@
         <name>Internal Release</name>
         <url>http://192.168.142.130:8081/nexus/content/repositories/releases/</url>
     </repository>
+    <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://192.168.142.130:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
   </distributionManagement>
 </project>
