@@ -22,7 +22,7 @@
     <repository>
         <id>deployment</id>
         <name>Internal Release</name>
-        <url>http://192.168.109.143:8081/nexus/content/repositories/releases/</url>
+        <url>http://192.168.142.130:8081/nexus/content/repositories/releases/</url>
     </repository>
   </distributionManagement>
 </project>
